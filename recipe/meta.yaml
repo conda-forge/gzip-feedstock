@@ -1,5 +1,5 @@
 {% set name = "gzip" %}
-{% set version = "1.10" %}
+{% set version = "1.11" %}
 
 package:
   name: {{ name|lower }}
@@ -7,11 +7,11 @@ package:
 
 source:
   url: https://ftp.gnu.org/gnu/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: c91f74430bf7bc20402e1f657d0b252cb80aa66ba333a25704512af346633c68
+  sha256: 3e8a0e0c45bad3009341dce17d71536c4c655d9313039021ce7554a26cd50ed9
 
 build:
   number: 0
-  skip: True  # [win]
+  skip: true  # [win]
 
 requirements:
   build:
@@ -27,7 +27,7 @@ about:
   license: GPL-3.0-or-later
   license_family: GPL
   license_file: COPYING
-  summary: 'The GNU zip complession utility'
+  summary: The GNU zip complession utility
   description: |
     gzip (GNU zip) is a compression utility designed to be a replacement
     for 'compress'. Its main advantages over compress are much better
