@@ -1,5 +1,5 @@
 {% set name = "gzip" %}
-{% set version = "1.11" %}
+{% set version = "1.12" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://ftp.gnu.org/gnu/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 3e8a0e0c45bad3009341dce17d71536c4c655d9313039021ce7554a26cd50ed9
+  sha256: 5b4fb14d38314e09f2fc8a1c510e7cd540a3ea0e3eb9b0420046b82c3bf41085
 
 build:
   number: 0
