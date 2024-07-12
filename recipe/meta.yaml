@@ -15,7 +15,8 @@ build:
 
 requirements:
   build:
-    - {{ compiler('c') }}
+    - {{ compiler("c") }}
+    - {{ stdlib("c") }}
     - make
 
 test:
@@ -39,3 +40,4 @@ about:
 extra:
   recipe-maintainers:
     - saraedum
+    - corneliusroemer
