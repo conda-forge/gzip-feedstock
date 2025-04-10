@@ -23,14 +23,7 @@ Current build status
 ====================
 
 
-<table><tr>
-    <td>Travis</td>
-    <td>
-      <a href="https://app.travis-ci.com/conda-forge/gzip-feedstock">
-        <img alt="linux" src="https://img.shields.io/travis/com/conda-forge/gzip-feedstock/main.svg?label=Linux">
-      </a>
-    </td>
-  </tr>
+<table>
     
   <tr>
     <td>Azure</td>
@@ -207,5 +200,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@corneliusroemer](https://github.com/corneliusroemer/)
 * [@saraedum](https://github.com/saraedum/)
 
