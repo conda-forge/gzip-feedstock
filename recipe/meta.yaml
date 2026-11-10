@@ -8,6 +8,8 @@ package:
 source:
   url: https://ftp.gnu.org/gnu/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: 545886cf57fa88a65e967fbf705903d7fcb2567c82c7342493e82e8d7b1a210b
+  patches:
+    - 0001-build-avoid-failure-to-build-on-linux-aarch64.patch
 
 build:
   number: 0
