@@ -29,7 +29,7 @@ about:
   license: GPL-3.0-or-later
   license_family: GPL
   license_file: COPYING
-  summary: The GNU zip complession utility
+  summary: The GNU zip compression utility
   description: |
     gzip (GNU zip) is a compression utility designed to be a replacement
     for 'compress'. Its main advantages over compress are much better
