@@ -7,7 +7,7 @@ Home: https://www.gnu.org/software/gzip/
 
 Package license: GPL-3.0-or-later
 
-Summary: The GNU zip complession utility
+Summary: The GNU zip compression utility
 
 Development: https://savannah.gnu.org/projects/gzip/
 
